@@ -1,0 +1,45 @@
+.nav__container {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 1px solid #ececec;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.nav_link {
+  @media screen and (max-width: 767px) {
+    // text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.nav_logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav_logo_text {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.nav_link:not(:last-child) {
+  @media screen and(min-width:767px) {
+    margin-right: 20px;
+  }
+}
+
+.nav_btn {
+  text-align: center;
+  height: 25px;
+  width: 175px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 20px;
+  }
+}

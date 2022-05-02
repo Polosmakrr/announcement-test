@@ -1,0 +1,57 @@
+.create_container,
+.edit_container {
+  margin-top: 20px;
+}
+
+.create_title,
+.edit_title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 20px;
+  }
+}
+
+.create_form,
+.edit_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.create_label,
+.edit_label {
+  font-size: 14px;
+  padding-bottom: 10px;
+  &:not(:first-child) {
+    padding-top: 20px;
+  }
+}
+
+.create_feald,
+.edit_feald {
+  resize: none;
+  width: 300px;
+  padding: 10px;
+
+  @media screen and(min-width:479px) {
+    width: 450px;
+  }
+  @media screen and(min-width:767px) {
+    width: 600px;
+  }
+}
+
+.create_btn,
+.edit_btn {
+  margin-top: 20px;
+  width: 75px;
+  height: 25px;
+}
+
+.btn_goBack {
+  align-items: center;
+}

@@ -1,0 +1,27 @@
+.mainBlock_container {
+  margin-top: 20px;
+}
+
+.mainBlock_title {
+  margin-left: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.mainBlock_list {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.mainBlock_item {
+  display: flex;
+}
+
+.mainBlock_itemTitle {
+  font-size: 18px;
+  font-weight: 400;
+  &:hover,
+  &:focus {
+    color: #188ce8;
+  }
+}
